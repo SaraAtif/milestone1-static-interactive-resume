@@ -1,0 +1,96 @@
+:root{
+    --pricolor:rgb(148, 181, 222);
+    --sidecolor:blue;
+
+}
+
+body{
+margin:0;
+background-color:whitesmoke;
+font-family: Arial, Helvetica, sans-serif;
+padding: 150px;
+
+}
+.container{
+    background-color:var(--pricolor) ;
+    display: flex;
+    width: 80%;
+    margin:0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    
+}
+.left-section{
+    background-color: var(--sidecolor);
+    border-right: 5px solid rgb(13, 156, 200);
+    width:35%;
+    padding: 20px;
+    color: white;
+    text-align: center;
+
+}
+.image{
+    border-radius: 50%;
+    width:150px;
+    height: 150px;
+    margin-top: 10%;
+    margin-bottom: 20px;
+    border: 5px solid rgb(13, 156, 200);;
+
+}
+#objective p{
+    text-align: center;
+
+    font-size: 18px;
+}
+
+h2{
+    text-align: center;
+    text-decoration: underline;
+
+}
+h3{
+   border-radius: 10px;
+   box-shadow:0 0 15px black;
+   padding: 2%;
+   font-size: 18px;
+   margin: 20px 0 10px 10px;
+   color: black;
+   margin-top: 5%;
+   margin-bottom: 5%;
+
+}
+ul li{
+    margin: 5px 0 ;
+    
+
+}
+ul{
+    padding: 10px;
+    margin:10px 0 0 10px;
+    list-style-type: fill round;
+}
+.right-section{
+ padding: 20px;   
+ margin:65%;
+ 
+}
+h1{
+    text-decoration: underline;
+    color:var(--sidecolor);
+    text-align: center;
+    font-size: 34px;
+    margin: 15px;
+
+}
+button{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:10px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 0 15px black;}
+
+button:hover{
+    background-color: var(--sidecolor);
+}    
